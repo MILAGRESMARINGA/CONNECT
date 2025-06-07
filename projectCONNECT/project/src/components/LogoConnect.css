@@ -1,0 +1,61 @@
+.logo-connect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo-connect__container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 280px;
+}
+
+.logo-connect__text {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(36px, 10vw, 52px);
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #FFFFFF !important;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: clamp(16px, 4vw, 24px);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-connect__curve {
+  position: relative;
+  width: clamp(160px, 50vw, 200px);
+  height: clamp(32px, 8vw, 40px);
+  overflow: hidden;
+  margin: 0 0 clamp(16px, 4vw, 24px);
+}
+
+.logo-connect__curve::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: clamp(16px, 4vw, 20px);
+  height: clamp(96px, 24vw, 120px);
+  width: 100%;
+  border: 3px solid #FFFFFF !important;
+  border-color: transparent transparent #FFFFFF transparent;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-connect__slogan {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(14px, 4vw, 18px);
+  font-weight: 300;
+  color: #FFFFFF !important;
+  text-align: center;
+  opacity: 0.9;
+  margin-top: 0;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
